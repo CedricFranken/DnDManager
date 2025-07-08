@@ -1,0 +1,36 @@
+$main-text-color: #ff0000;
+$main-background-color: #ad00dd;
+
+
+  header {
+    background-color: $main-background-color;
+    height: 60px; /* Beispielhöhe */
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    ul {
+      display: flex; /* Buttons nebeneinander anordnen */
+      list-style: none; /* Entfernt die Standard-Punkte der Liste */
+      gap: 1rem;
+    }
+
+    li {
+      display: inline;
+    }
+
+    .buttons {
+      margin-left: 15px
+
+    }
+
+    .nav-bar-text {
+      color: $main-text-color;
+      text-shadow: black 2px 2px 4px;
+      font-size: 30px;
+      margin-left: 5px;
+
+    }
+  }
+
+
